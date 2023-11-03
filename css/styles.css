@@ -1,0 +1,27 @@
+@charset "uft-8";
+
+/* 
+Advanced CSS Lab 8 - Accordion Components
+
+Christopher Blouin
+*/
+
+.accordion-button:is(.collapsed),
+.accordion-button:not(.collapsed) {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.accordion-button:is(.collapsed) {
+    color: #1f1f1f;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(253, 230, 187);
+    color: #1f1f1f;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
